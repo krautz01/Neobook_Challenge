@@ -1,26 +1,72 @@
 .wrapp {
-    display: flex;
-    width: 1440px;
-    height: 1024px;
+  display: flex;
+  width: 1440px;
+  height: 1024px;
 }
 
 .block_1 {
-    width: 50%;
-    height: auto;
-    
+  width: 50%;
+  height: auto;
 }
 
 .block_2 {
-    width: 50%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  width: 50%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .container {
-    width: 335px;
-    height: 10%;
-    background-color: aqua;
-    margin: auto;
+  width: 335px;
+  margin: auto;
+}
+
+.username {
+  color: #c0c0c0;
+  margin-bottom: 40px;
+}
+
+.password {
+  color: #c0c0c0;
+  margin-bottom: 17px;
+  display: flex;
+}
+
+.password .input {
+  width: 87.5%;
+}
+
+.password .icon {
+  width: 35px;
+}
+
+.button {
+  background-color: #c0c0c0;
+  width: 335px;
+  height: 44px;
+  margin-bottom: 170px;
+}
+
+.forgot_password {
+  color: #5458ea;
+  margin-bottom: 46px;
+}
+
+.input {
+  border: none;
+  border-bottom: 0.5px solid #c0c0c0;
+  width: 335px;
+  height: 39px;
+  gap: 10px;
+  background-color: #ffffff;
+  color: black;
+}
+
+.sign_up {
+  background-color: #ffffff;
+  width: 335px;
+  height: 44px;
+  color: #5458ea;
 }
